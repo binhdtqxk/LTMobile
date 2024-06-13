@@ -1,0 +1,806 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vertical_bars.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\vertical_bars.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_black_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_menu_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_quantum_launchscreen_calendar.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\quantum_launchscreen_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_07_jul.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_07_jul.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_googlelogo_dark20_color_132x44.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\googlelogo_dark20_color_132x44.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_latobold.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\latobold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_10_october.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_10_october.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_horizontal_bars.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\horizontal_bars.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_02_feb.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_02_feb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bottom.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more_vert_black_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_more_vert_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mytestback.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\mytestback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_01_jan.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_01_jan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_04_apr.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_04_apr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_10_oct.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_10_oct.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_noplanlittlespace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\noplanlittlespace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_03_march.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_03_march.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_04_april.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_04_april.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_03_march.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_03_march.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_03_mar.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_03_mar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_month_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_10_oct.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_10_oct.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_03_mar.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_03_mar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_product_logo_calendar_color_144.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\product_logo_calendar_color_144.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_headerview.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\headerview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_googlesansmed.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\googlesansmed.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_11_november.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_11_november.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_divider.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_05_may.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_05_may.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_extraspace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\extraspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_02_february.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_02_february.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_05_may.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_05_may.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_drawerheader.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\drawerheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_year_view.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\activity_year_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_04_apr.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_04_apr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_04_apr.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_04_apr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_googlesans_regular.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\googlesans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_09_september.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_09_september.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_05_may.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_05_may.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar_badged_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\calendar_badged_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_calendar_view_week_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_view_week_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_quantum_gm_ic_calendar_today_gm_grey_24.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\quantum_gm_ic_calendar_today_gm_grey_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_star_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_item.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\menu\\nav_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_11_nov.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_11_nov.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_quantum_gm_ic_calendar_today_gm_grey_24.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\quantum_gm_ic_calendar_today_gm_grey_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_05_may.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_05_may.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_rangelayextratopspace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\rangelayextratopspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_01_january.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_01_january.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_07_jul.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_07_jul.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_product_logo_calendar_color_144.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\product_logo_calendar_color_144.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_09_sep.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_09_sep.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_privacy.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\privacy.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_blocks.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_blocks.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_08_august.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_08_august.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blackcircle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\blackcircle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_view_item.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_11_november.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_11_november.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_11_nov.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_11_nov.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_checked_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\productsans.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_arrow_down_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sentiment_very_dissatisfied_grey600_36dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_sentiment_very_dissatisfied_grey600_36dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_06_jun.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_06_jun.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_10_oct.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_10_oct.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_10_october.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_10_october.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_checked_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_productbold.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\productbold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_verticals.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_verticals.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewitemlessspace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\viewitemlessspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_appbarstate.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\appbarstate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_grid_on_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_grid_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_03_mar.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_03_mar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backselector.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\backselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_03_mar.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_03_mar.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_down_black_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_04_april.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_04_april.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewlast.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\viewlast.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_08_aug.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_08_aug.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_06_jun.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_06_jun.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mtrl_chip_close_circle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_privacy.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\activity_privacy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_star_border_grey600_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_star_border_grey600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_01_jan.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_01_jan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_schedule.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_schedule.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_02_february.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_02_february.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_11_nov.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_11_nov.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_01_january.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_01_january.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_bold.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\productsans_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_05_may.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_05_may.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_view_comfy_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_view_comfy_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_09_sep.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_09_sep.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_medium.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\productsans_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sentiment_very_satisfied_grey600_36dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_sentiment_very_satisfied_grey600_36dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sentiment_satisfied_grey600_36dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_sentiment_satisfied_grey600_36dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_12_dec.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_12_dec.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_gridlay.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\gridlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_product_logo_calendar_color_144.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\product_logo_calendar_color_144.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close_black_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_close_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_02_february.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_02_february.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pixels.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_pixels.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_itemselector.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\itemselector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_02_feb.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_02_feb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_latomedium.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\latomedium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sentiment_dissatisfied_grey600_36dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_sentiment_dissatisfied_grey600_36dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_11_november.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_11_november.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_month.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\fragment_month.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_googlelogo_dark20_color_132x44.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\googlelogo_dark20_color_132x44.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_rongellining.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\rongellining.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_grid.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_latoregular.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\latoregular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_policy_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_policy_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_quantum_gm_ic_calendar_today_gm_grey_24.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\quantum_gm_ic_calendar_today_gm_grey_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_eventcircle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\eventcircle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_smallcircle.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\smallcircle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_04_apr.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_04_apr.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_empty.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_googlelogo_dark20_color_132x44.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\googlelogo_dark20_color_132x44.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_calendar_view_month_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_view_month_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selectedback.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\selectedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_08_aug.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_08_aug.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_01_jan.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_01_jan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_myrect.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\myrect.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_05_may.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_05_may.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_year.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\fragment_year.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_08_aug.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_08_aug.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_12_dec.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_12_dec.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_product_logo_calendar_color_144.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\product_logo_calendar_color_144.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sentiment_neutral_grey600_36dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_sentiment_neutral_grey600_36dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_02_feb.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_02_feb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_03_march.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_03_march.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_rangelayextrabottomspace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\rangelayextrabottomspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_09_sep.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_09_sep.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_05_may.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_05_may.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_todayheader.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\todayheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_googlelogo_dark20_color_132x44.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\googlelogo_dark20_color_132x44.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_12_dec.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_12_dec.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_09_sep.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_09_sep.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_viewpagerlay.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\viewpagerlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_06_june.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_06_june.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_12_dec.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_12_dec.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_11_nov.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_11_nov.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_view_stream_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_view_stream_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_quantum_gm_ic_calendar_today_gm_grey_24.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\quantum_gm_ic_calendar_today_gm_grey_24.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_07_july.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_07_july.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_08_august.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_08_august.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_monthgriditem.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\monthgriditem.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_02_feb.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_02_feb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_07_jul.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_07_jul.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_rangelay.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\rangelay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_01_january.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_01_january.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_06_june.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_06_june.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bkg_06_jun.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-mdpi\\bkg_06_jun.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bkg_08_aug.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xxhdpi\\bkg_08_aug.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_white_touch.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-v24\\white_touch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\animator_ann.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\animator\\ann.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_07_july.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_07_july.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_04_april.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_04_april.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_06_jun.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_06_jun.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_monthgriditemlspace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\monthgriditemlspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_up_black_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_arrow_drop_up_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_light.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\productsans_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rround.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\rround.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_10_oct.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_10_oct.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_09_september.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_09_september.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nav_back.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\nav_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-xhdpi_bkg_08_august.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-xhdpi\\bkg_08_august.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fraglay.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\fraglay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_10_october.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_10_october.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-mdpi_bkg_09_september.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-mdpi\\bkg_09_september.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_liitlespace.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\liitlespace.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\layout_noplanlay.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\layout\\noplanlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bkg_01_jan.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-hdpi\\bkg_01_jan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcorner.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\roundcorner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_columns.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_columns.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_latosemi.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\latosemi.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_layout_with_header_and_footer_areas.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_layout_with_header_and_footer_areas.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bkg_07_jul.jpg.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-xhdpi\\bkg_07_jul.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_07_july.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_07_july.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-sw600dp-hdpi_bkg_06_june.webp.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable-sw600dp-hdpi\\bkg_06_june.webp"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_view_week_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_view_week_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_calendar_view_day_24.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_view_day_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\font_productsans_regular.ttf.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\font\\productsans_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_box.xml.flat",
+        "source": "C:\\Users\\Admin\\AndroidStudioProjects\\googlecalendar\\app\\src\\main\\res\\drawable\\ic_box.xml"
+    }
+]
