@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextTaskDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detail"
+        android:inputType="text" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="389dp"
+        android:layout_height="409dp"
+        android:calendarViewShown="false"
+        android:spinnersShown="true" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:timePickerMode="spinner" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupRepeatOptions"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioNoRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Repeat" />
+
+        <RadioButton
+            android:id="@+id/radioDaily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily" />
+
+        <RadioButton
+            android:id="@+id/radioWeekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly" />
+
+        <RadioButton
+            android:id="@+id/radioMonthly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly" />
+
+        <RadioButton
+            android:id="@+id/radioYearly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yearly" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
