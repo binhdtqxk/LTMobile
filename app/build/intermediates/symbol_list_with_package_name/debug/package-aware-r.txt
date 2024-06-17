@@ -1745,6 +1745,7 @@ drawable divider
 drawable eventcircle
 drawable googlelogo_dark20_color_132x44
 drawable horizontal_bars
+drawable ic_add
 drawable ic_arrow_down_24dp
 drawable ic_arrow_drop_down_black_24dp
 drawable ic_arrow_drop_up_black_24dp
@@ -1943,6 +1944,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id buttonAdd
 id buttonPanel
 id cache_measures
 id calander
@@ -1983,6 +1985,7 @@ id counterclockwise
 id custom
 id customPanel
 id cut
+id datePicker
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2013,6 +2016,8 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextTaskDetail
+id editTextTaskTitle
 id edit_query
 id elastic
 id end
@@ -2027,6 +2032,7 @@ id eventview
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab_add_task
 id fade
 id fill
 id fill_horizontal
@@ -2177,6 +2183,12 @@ id privacytext
 id progress_circular
 id progress_horizontal
 id radio
+id radioDaily
+id radioGroupRepeatOptions
+id radioMonthly
+id radioNoRepeat
+id radioWeekly
+id radioYearly
 id ratio
 id rectangles
 id redlay
@@ -2288,6 +2300,7 @@ id textinput_suffix_text
 id threeday
 id thursday
 id time
+id timePicker
 id title
 id titleDividerNoCustom
 id title_template
@@ -2392,6 +2405,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_task
 layout activity_main
 layout activity_privacy
 layout activity_year_view

@@ -4,11 +4,17 @@ import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.ContentValues;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Resources;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.RectF;
@@ -33,11 +39,17 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AbsListView;
+import android.widget.DatePicker;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.example.GoogleCalendar.taskDAO.DatabaseHelper;
+import com.example.GoogleCalendar.taskDAO.Task;
 import com.example.GoogleCalendar.weekview.DateTimeInterpreter;
 import com.example.GoogleCalendar.weekview.MonthLoader;
 import com.example.GoogleCalendar.weekview.WeekView;
@@ -45,6 +57,7 @@ import com.example.GoogleCalendar.weekview.WeekViewEvent;
 import com.gjiazhe.scrollparallaximageview.ScrollParallaxImageView;
 import com.gjiazhe.scrollparallaximageview.parallaxstyle.VerticalMovingStyle;
 import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersAdapter;
 import com.timehop.stickyheadersrecyclerview.StickyRecyclerHeadersDecoration;
@@ -83,7 +96,7 @@ import androidx.viewpager.widget.ViewPager;
 
 public class MainActivity extends AppCompatActivity
         implements MyRecyclerView.AppBarTracking, WeekView.EventClickListener, MonthLoader.MonthChangeListener, WeekView.EventLongPressListener, WeekView.EmptyViewLongPressListener, WeekView.ScrollListener {
-
+    private DatabaseHelper dbHelper;
     private static final String TAG = "MainActivity";
     public static LocalDate lastdate = LocalDate.now();
     public static int topspace = 0;
@@ -357,6 +370,7 @@ public class MainActivity extends AppCompatActivity
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        dbHelper = new DatabaseHelper(this);
         mWeekView = (WeekView) findViewById(R.id.weekView);
         weekviewcontainer = findViewById(R.id.weekViewcontainer);
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -377,6 +391,15 @@ public class MainActivity extends AppCompatActivity
             //the method we have create in activity
             applyFontToMenuItem(mi);
         }
+        FloatingActionButton fabAddTask = findViewById(R.id.fab_add_task);
+        fabAddTask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showAddTaskDialog();
+            }
+        });
+        // Load tasks from database and display them on calendar
+        loadTasksFromDatabase();
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -934,6 +957,86 @@ public class MainActivity extends AppCompatActivity
         // the week view. This is optional.
         setupDateTimeInterpreter(false);
 
+    }
+//show add task
+    private void showAddTaskDialog() {
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_add_task, null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setView(dialogView)
+                .setPositiveButton("Add Task", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        EditText taskTitle = dialogView.findViewById(R.id.editTextTaskTitle);
+                        EditText taskDetail = dialogView.findViewById(R.id.editTextTaskDetail);
+                        DatePicker datePicker = dialogView.findViewById(R.id.datePicker);
+                        TimePicker timePicker = dialogView.findViewById(R.id.timePicker);
+                        RadioGroup radioGroup = dialogView.findViewById(R.id.radioGroupRepeatOptions);
+
+                        String title = taskTitle.getText().toString();
+                        String detail = taskDetail.getText().toString();
+                        int day = datePicker.getDayOfMonth();
+                        int month = datePicker.getMonth();
+                        int year = datePicker.getYear();
+                        int hour = timePicker.getCurrentHour();
+                        int minute = timePicker.getCurrentMinute();
+                        int repeatOption = radioGroup.getCheckedRadioButtonId();
+
+                        insertTaskToDatabase(title, detail, day, month, year, hour, minute, repeatOption);
+                    }
+                })
+                .setNegativeButton("Cancel", null)
+                .create()
+                .show();
+    }
+
+    private void insertTaskToDatabase(String title, String detail, int day, int month, int year, int hour, int minute, int repeatOption) {
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+        contentValues.put("title", title);
+        contentValues.put("detail", detail);
+        contentValues.put("day", day);
+        contentValues.put("month", month);
+        contentValues.put("year", year);
+        contentValues.put("hour", hour);
+        contentValues.put("minute", minute);
+        contentValues.put("repeatOption", repeatOption);
+        long result = db.insert("taskManager", null, contentValues);
+
+        if (result != -1) {
+            loadTasksFromDatabase();
+        } else {
+            // Handle error
+        }
+    }
+
+    private void loadTasksFromDatabase() {
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        Cursor cursor = db.query("taskManager", null, null, null, null, null, null);
+
+        List<Task> tasks = new ArrayList<>();
+        if (cursor.moveToFirst()) {
+            do {
+                @SuppressLint("Range") String title = cursor.getString(cursor.getColumnIndex("title"));
+                @SuppressLint("Range") String detail = cursor.getString(cursor.getColumnIndex("detail"));
+                @SuppressLint("Range") int day = cursor.getInt(cursor.getColumnIndex("day"));
+                @SuppressLint("Range") int month = cursor.getInt(cursor.getColumnIndex("month"));
+                @SuppressLint("Range") int year = cursor.getInt(cursor.getColumnIndex("year"));
+                @SuppressLint("Range") int hour = cursor.getInt(cursor.getColumnIndex("hour"));
+                @SuppressLint("Range") int minute = cursor.getInt(cursor.getColumnIndex("minute"));
+                @SuppressLint("Range") int repeatOption = cursor.getInt(cursor.getColumnIndex("repeatOption"));
+
+                tasks.add(new Task(title, detail, day, month, year, hour, minute, repeatOption));
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+
+        displayTasksOnCalendar(tasks);
+    }
+
+    private void displayTasksOnCalendar(List<Task> tasks) {
+        // Logic to display tasks on calendar
     }
 
     @Override
@@ -1764,7 +1867,7 @@ public class MainActivity extends AppCompatActivity
 
         LocalDate today = LocalDate.now();
 
-        public ArrayList<EventModel> geteventallList() {
+        public ArrayList<EventModel> geteventallList()   {
             return eventalllist;
         }
 
@@ -2131,4 +2234,5 @@ public class MainActivity extends AppCompatActivity
             }
         }
     }
+
 }
