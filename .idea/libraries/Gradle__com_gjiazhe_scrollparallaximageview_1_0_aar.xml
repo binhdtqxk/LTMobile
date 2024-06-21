@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.gjiazhe:scrollparallaximageview:1.0@aar" external-system-id="GRADLE">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5d510bbd9967f22fc93bca1d26a6f553/transformed/jetified-scrollparallaximageview-1.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5d510bbd9967f22fc93bca1d26a6f553/transformed/jetified-scrollparallaximageview-1.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5d510bbd9967f22fc93bca1d26a6f553/transformed/jetified-scrollparallaximageview-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2f890b26bdf783a126299e5d01514e04/transformed/jetified-scrollparallaximageview-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2f890b26bdf783a126299e5d01514e04/transformed/jetified-scrollparallaximageview-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2f890b26bdf783a126299e5d01514e04/transformed/jetified-scrollparallaximageview-1.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
