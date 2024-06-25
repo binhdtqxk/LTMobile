@@ -39,11 +39,14 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AbsListView;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
@@ -398,6 +401,8 @@ public class MainActivity extends AppCompatActivity
                 showAddTaskDialog();
             }
         });
+
+
         // Load tasks from database and display them on calendar
         loadTasksFromDatabase();
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -972,7 +977,7 @@ public class MainActivity extends AppCompatActivity
                         EditText taskDetail = dialogView.findViewById(R.id.editTextTaskDetail);
                         DatePicker datePicker = dialogView.findViewById(R.id.datePicker);
                         TimePicker timePicker = dialogView.findViewById(R.id.timePicker);
-                        RadioGroup radioGroup = dialogView.findViewById(R.id.radioGroupRepeatOptions);
+                        Spinner spinnerRepeat = dialogView.findViewById(R.id.repeatSpinner);
 
                         String title = taskTitle.getText().toString();
                         String detail = taskDetail.getText().toString();
@@ -981,7 +986,7 @@ public class MainActivity extends AppCompatActivity
                         int year = datePicker.getYear();
                         int hour = timePicker.getCurrentHour();
                         int minute = timePicker.getCurrentMinute();
-                        int repeatOption = radioGroup.getCheckedRadioButtonId();
+                        int repeatOption = spinnerRepeat.getSelectedItemPosition();
 
                         insertTaskToDatabase(title, detail, day, month, year, hour, minute, repeatOption);
                     }
