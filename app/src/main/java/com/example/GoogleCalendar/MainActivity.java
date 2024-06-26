@@ -963,7 +963,8 @@ public class MainActivity extends AppCompatActivity
         setupDateTimeInterpreter(false);
 
     }
-//show add task
+
+    //show add task
     private void showAddTaskDialog() {
         LayoutInflater inflater = getLayoutInflater();
         View dialogView = inflater.inflate(R.layout.activity_add_task, null);
@@ -996,16 +997,12 @@ public class MainActivity extends AppCompatActivity
                 .show();
     }
 
-    private void insertTaskToDatabase(String title, String detail, int day, int month, int year, int hour, int minute, int repeatOption) {
+    private void insertTaskToDatabase(String title, String detail, LocalDateTime dateTime, int repeatOption) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("title", title);
         contentValues.put("detail", detail);
-        contentValues.put("day", day);
-        contentValues.put("month", month);
-        contentValues.put("year", year);
-        contentValues.put("hour", hour);
-        contentValues.put("minute", minute);
+        contentValues.put("datetime", dateTime);
         contentValues.put("repeatOption", repeatOption);
         long result = db.insert("taskManager", null, contentValues);
 
@@ -1872,7 +1869,7 @@ public class MainActivity extends AppCompatActivity
 
         LocalDate today = LocalDate.now();
 
-        public ArrayList<EventModel> geteventallList()   {
+        public ArrayList<EventModel> geteventallList() {
             return eventalllist;
         }
 

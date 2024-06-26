@@ -3,21 +3,14 @@ package com.example.GoogleCalendar.taskDAO;
 public class Task {
     private String title;
     private String detail;
-    private int day;
-    private int month;
-    private int year;
-    private int hour;
-    private int minute;
+    private LocalDateTime dateTime;
+
     private int repeatOption;
 
-    public Task(String title, String detail, int day, int month, int year, int hour, int minute, int repeatOption) {
+    public Task(String title, String detail, LocalDateTime dateTime , int repeatOption) {
         this.title = title;
         this.detail = detail;
-        this.day = day;
-        this.month = month;
-        this.year = year;
-        this.hour = hour;
-        this.minute = minute;
+        this.dateTime = dateTime;
         this.repeatOption = repeatOption;
     }
 
