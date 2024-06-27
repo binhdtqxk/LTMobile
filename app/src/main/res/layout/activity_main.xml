@@ -193,7 +193,7 @@
 
         </ScrollView>
 
-        <!--floatingactionbutton-->
+        <!--addTaskButton   -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_add_task"
             android:layout_width="56dp"
@@ -203,6 +203,18 @@
             android:src="@drawable/ic_add"
         android:backgroundTint="@color/colorAccent"
         android:contentDescription="Add Task" />
+        <!--viewTaskButton   -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_view_task"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="100dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_view"
+            android:backgroundTint="@color/colorAccent"
+            android:contentDescription="View Task" />
+
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

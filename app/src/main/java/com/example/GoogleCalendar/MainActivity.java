@@ -45,6 +45,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -156,6 +157,7 @@ public class MainActivity extends AppCompatActivity
             R.drawable.bkg_11_nov,
             R.drawable.bkg_12_dec
     };
+
 
     public static void setTransparent(Activity activity) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
@@ -401,6 +403,14 @@ public class MainActivity extends AppCompatActivity
                 showAddTaskDialog();
             }
         });
+        FloatingActionButton fabViewTask = findViewById(R.id.fab_view_task);
+        fabViewTask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showViewTaskDialog();
+            }
+        });
+
 
 
         // Load tasks from database and display them on calendar
@@ -963,7 +973,20 @@ public class MainActivity extends AppCompatActivity
         setupDateTimeInterpreter(false);
 
     }
-//show add task
+    //show view task
+    private void showViewTaskDialog() {
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_task_list, null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setView(dialogView)
+
+                .setNegativeButton("Back", null)
+                .create()
+                .show();
+    }
+
+    //show add task
     private void showAddTaskDialog() {
         LayoutInflater inflater = getLayoutInflater();
         View dialogView = inflater.inflate(R.layout.activity_add_task, null);
@@ -1042,6 +1065,8 @@ public class MainActivity extends AppCompatActivity
 
     private void displayTasksOnCalendar(List<Task> tasks) {
         // Logic to display tasks on calendar
+
+
     }
 
     @Override
