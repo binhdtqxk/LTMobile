@@ -27,8 +27,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 "month INTEGER, " +
                 "year INTEGER, " +
                 "hour INTEGER, " +
-                "minute INTEGER, " +
-                "repeatOption INTEGER)";
+                "minute INTEGER)";
         db.execSQL(createTable);
     }
 
@@ -36,6 +35,30 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_NAME);
         onCreate(db);
+    }
+    @SuppressLint("Range")
+    public List<Task> getAllTasks() {
+        List<Task> taskList = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery("SELECT * FROM tasks", null);
+
+        if (cursor.moveToFirst()) {
+            do {
+                Task task = new Task();
+                task.setTitle(cursor.getString(cursor.getColumnIndex("title")));
+                task.setDetail(cursor.getString(cursor.getColumnIndex("detail")));
+                task.setDay(cursor.getInt(cursor.getColumnIndex("day")));
+                task.setMonth(cursor.getInt(cursor.getColumnIndex("month")));
+                task.setYear(cursor.getInt(cursor.getColumnIndex("year")));
+                task.setHour(cursor.getInt(cursor.getColumnIndex("hour")));
+                task.setMinute(cursor.getInt(cursor.getColumnIndex("minute")));
+
+                taskList.add(task);
+            } while (cursor.moveToNext());
+        }
+        cursor.close();
+        db.close();
+        return taskList;
     }
 }
 

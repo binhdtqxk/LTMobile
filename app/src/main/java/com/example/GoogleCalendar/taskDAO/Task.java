@@ -8,9 +8,8 @@ public class Task {
     private int year;
     private int hour;
     private int minute;
-    private int repeatOption;
 
-    public Task(String title, String detail, int day, int month, int year, int hour, int minute, int repeatOption) {
+    public Task(String title, String detail, int day, int month, int year, int hour, int minute) {
         this.title = title;
         this.detail = detail;
         this.day = day;
@@ -18,7 +17,10 @@ public class Task {
         this.year = year;
         this.hour = hour;
         this.minute = minute;
-        this.repeatOption = repeatOption;
+    }
+
+    public Task() {
+
     }
 
     public String getTitle() {
@@ -77,11 +79,11 @@ public class Task {
         this.minute = minute;
     }
 
-    public int getRepeatOption() {
-        return repeatOption;
+    public String getTime(){
+        return this.hour+" "+this.minute;
     }
 
-    public void setRepeatOption(int repeatOption) {
-        this.repeatOption = repeatOption;
+    public String getDate(){
+        return this.day+"/"+this.month+"/"+this.year;
     }
 }

@@ -9,22 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".YearViewActivity">
-
-
+        <activity android:name=".YearViewActivity"
+            android:exported="false">
         </activity>
-        <activity android:name=".PrivacyActivity" />
+        <activity android:name=".PrivacyActivity"
+            android:exported="false">
+        </activity>
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".taskDAO.TaskListActivity"
+            android:exported="false">
+        </activity>
     </application>
-    <uses-permission android:name="android.permission.READ_CALENDAR" />
 
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
 
 </manifest>

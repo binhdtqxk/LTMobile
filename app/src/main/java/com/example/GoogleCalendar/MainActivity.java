@@ -54,6 +54,7 @@ import android.widget.Toast;
 
 import com.example.GoogleCalendar.taskDAO.DatabaseHelper;
 import com.example.GoogleCalendar.taskDAO.Task;
+import com.example.GoogleCalendar.taskDAO.TaskListActivity;
 import com.example.GoogleCalendar.weekview.DateTimeInterpreter;
 import com.example.GoogleCalendar.weekview.MonthLoader;
 import com.example.GoogleCalendar.weekview.WeekView;
@@ -407,7 +408,8 @@ public class MainActivity extends AppCompatActivity
         fabViewTask.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showViewTaskDialog();
+                Intent intent = new Intent(MainActivity.this, TaskListActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -942,7 +944,6 @@ public class MainActivity extends AppCompatActivity
 
                         mAppBar.setExpanded(mIsExpanded, true);
 
-
                     }
                 });
 
@@ -1000,7 +1001,7 @@ public class MainActivity extends AppCompatActivity
                         EditText taskDetail = dialogView.findViewById(R.id.editTextTaskDetail);
                         DatePicker datePicker = dialogView.findViewById(R.id.datePicker);
                         TimePicker timePicker = dialogView.findViewById(R.id.timePicker);
-                        Spinner spinnerRepeat = dialogView.findViewById(R.id.repeatSpinner);
+
 
                         String title = taskTitle.getText().toString();
                         String detail = taskDetail.getText().toString();
@@ -1009,9 +1010,8 @@ public class MainActivity extends AppCompatActivity
                         int year = datePicker.getYear();
                         int hour = timePicker.getCurrentHour();
                         int minute = timePicker.getCurrentMinute();
-                        int repeatOption = spinnerRepeat.getSelectedItemPosition();
 
-                        insertTaskToDatabase(title, detail, day, month, year, hour, minute, repeatOption);
+                        insertTaskToDatabase(title, detail, day, month, year, hour, minute);
                     }
                 })
                 .setNegativeButton("Cancel", null)
@@ -1019,7 +1019,7 @@ public class MainActivity extends AppCompatActivity
                 .show();
     }
 
-    private void insertTaskToDatabase(String title, String detail, int day, int month, int year, int hour, int minute, int repeatOption) {
+    private void insertTaskToDatabase(String title, String detail, int day, int month, int year, int hour, int minute) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("title", title);
@@ -1029,7 +1029,6 @@ public class MainActivity extends AppCompatActivity
         contentValues.put("year", year);
         contentValues.put("hour", hour);
         contentValues.put("minute", minute);
-        contentValues.put("repeatOption", repeatOption);
         long result = db.insert("taskManager", null, contentValues);
 
         if (result != -1) {
@@ -1053,14 +1052,12 @@ public class MainActivity extends AppCompatActivity
                 @SuppressLint("Range") int year = cursor.getInt(cursor.getColumnIndex("year"));
                 @SuppressLint("Range") int hour = cursor.getInt(cursor.getColumnIndex("hour"));
                 @SuppressLint("Range") int minute = cursor.getInt(cursor.getColumnIndex("minute"));
-                @SuppressLint("Range") int repeatOption = cursor.getInt(cursor.getColumnIndex("repeatOption"));
 
-                tasks.add(new Task(title, detail, day, month, year, hour, minute, repeatOption));
+                tasks.add(new Task(title, detail, day, month, year, hour, minute));
             } while (cursor.moveToNext());
         }
         cursor.close();
 
-        displayTasksOnCalendar(tasks);
     }
 
     private void displayTasksOnCalendar(List<Task> tasks) {
