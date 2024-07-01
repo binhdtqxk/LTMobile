@@ -1,4 +1,4 @@
-package com.example.GoogleCalendar;
+package com.example.GoogleCalendar.weekview;
 
 import android.os.Bundle;
 import androidx.annotation.NonNull;
@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.GoogleCalendar.R;
 import com.github.agogs.holidayapi.api.APIConsumer;
 import com.github.agogs.holidayapi.api.impl.HolidayAPIConsumer;
 import com.github.agogs.holidayapi.model.Holiday;
@@ -19,37 +20,37 @@ import com.github.agogs.holidayapi.model.QueryParams;
 import java.io.IOException;
 import java.util.List;
 
-public class HolidayFragment extends Fragment {
+public class HolidayFragment{
 
     private APIConsumer apiConsumer;
     private TextView resultTextView;
 
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        // Initialize APIConsumer with your base URL
-        apiConsumer = new HolidayAPIConsumer(getString(R.string.ca140450_57f2_4985_b50d_6cd1b6056722));
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_holiday, container, false);
-
-        // Initialize views
-        resultTextView = view.findViewById(R.id.resultTextView);
-        Button fetchButton = view.findViewById(R.id.fetchButton);
-        fetchButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                fetchHolidays();
-            }
-        });
-
-        return view;
-    }
+//    @Override
+//    public void onCreate(@Nullable Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//
+//        // Initialize APIConsumer with your base URL
+//        apiConsumer = new HolidayAPIConsumer("ca140450_57f2_4985_b50d_6cd1b6056722");
+//    }
+//
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+//                             Bundle savedInstanceState) {
+//        // Inflate the layout for this fragment
+//        View view = inflater.inflate(R.layout.fragment_holiday, container, false);
+//
+//        // Initialize views
+//        resultTextView = view.findViewById(R.id.resultTextView);
+//        Button fetchButton = view.findViewById(R.id.fetchButton);
+//        fetchButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                fetchHolidays();
+//            }
+//        });
+//
+//        return view;
+//    }
 
     private void fetchHolidays() {
         // Example usage of APIConsumer to fetch holidays
@@ -80,5 +81,28 @@ public class HolidayFragment extends Fragment {
             e.printStackTrace();
             resultTextView.setText("Error occurred: " + e.getMessage());
         }
+    }
+//    {
+//        "status": 200,
+//            "holidays": [
+//        {
+//            "name": "New Year's Day",
+//                "date": "2024-01-01",
+//                "observed": "2024-01-01",
+//                "public": true,
+//                "country": "United States"
+//        },
+//        {
+//            "name": "Martin Luther King Jr. Day",
+//                "date": "2024-01-15",
+//                "observed": "2024-01-15",
+//                "public": true,
+//                "country": "United States"
+//        }
+//  ]
+//    }
+    public static void main(String[] args) {
+        HolidayFragment test=new HolidayFragment();
+        test.fetchHolidays();
     }
 }
