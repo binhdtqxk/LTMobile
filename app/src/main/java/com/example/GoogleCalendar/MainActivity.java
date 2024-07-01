@@ -45,6 +45,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -53,6 +54,7 @@ import android.widget.Toast;
 
 import com.example.GoogleCalendar.taskDAO.DatabaseHelper;
 import com.example.GoogleCalendar.taskDAO.Task;
+import com.example.GoogleCalendar.taskDAO.TaskListActivity;
 import com.example.GoogleCalendar.weekview.DateTimeInterpreter;
 import com.example.GoogleCalendar.weekview.MonthLoader;
 import com.example.GoogleCalendar.weekview.WeekView;
@@ -156,6 +158,7 @@ public class MainActivity extends AppCompatActivity
             R.drawable.bkg_11_nov,
             R.drawable.bkg_12_dec
     };
+
 
     public static void setTransparent(Activity activity) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
@@ -401,6 +404,15 @@ public class MainActivity extends AppCompatActivity
                 showAddTaskDialog();
             }
         });
+        FloatingActionButton fabViewTask = findViewById(R.id.fab_view_task);
+        fabViewTask.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TaskListActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
         // Load tasks from database and display them on calendar
@@ -932,7 +944,6 @@ public class MainActivity extends AppCompatActivity
 
                         mAppBar.setExpanded(mIsExpanded, true);
 
-
                     }
                 });
 
@@ -963,7 +974,20 @@ public class MainActivity extends AppCompatActivity
         setupDateTimeInterpreter(false);
 
     }
-//show add task
+    //show view task
+    private void showViewTaskDialog() {
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_task_list, null);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+        builder.setView(dialogView)
+
+                .setNegativeButton("Back", null)
+                .create()
+                .show();
+    }
+
+    //show add task
     private void showAddTaskDialog() {
         LayoutInflater inflater = getLayoutInflater();
         View dialogView = inflater.inflate(R.layout.activity_add_task, null);
@@ -977,7 +1001,7 @@ public class MainActivity extends AppCompatActivity
                         EditText taskDetail = dialogView.findViewById(R.id.editTextTaskDetail);
                         DatePicker datePicker = dialogView.findViewById(R.id.datePicker);
                         TimePicker timePicker = dialogView.findViewById(R.id.timePicker);
-                        Spinner spinnerRepeat = dialogView.findViewById(R.id.repeatSpinner);
+
 
                         String title = taskTitle.getText().toString();
                         String detail = taskDetail.getText().toString();
@@ -986,9 +1010,8 @@ public class MainActivity extends AppCompatActivity
                         int year = datePicker.getYear();
                         int hour = timePicker.getCurrentHour();
                         int minute = timePicker.getCurrentMinute();
-                        int repeatOption = spinnerRepeat.getSelectedItemPosition();
 
-                        insertTaskToDatabase(title, detail, day, month, year, hour, minute, repeatOption);
+                        insertTaskToDatabase(title, detail, day, month, year, hour, minute);
                     }
                 })
                 .setNegativeButton("Cancel", null)
@@ -996,7 +1019,7 @@ public class MainActivity extends AppCompatActivity
                 .show();
     }
 
-    private void insertTaskToDatabase(String title, String detail, int day, int month, int year, int hour, int minute, int repeatOption) {
+    private void insertTaskToDatabase(String title, String detail, int day, int month, int year, int hour, int minute) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
         contentValues.put("title", title);
@@ -1006,7 +1029,6 @@ public class MainActivity extends AppCompatActivity
         contentValues.put("year", year);
         contentValues.put("hour", hour);
         contentValues.put("minute", minute);
-        contentValues.put("repeatOption", repeatOption);
         long result = db.insert("taskManager", null, contentValues);
 
         if (result != -1) {
@@ -1030,18 +1052,18 @@ public class MainActivity extends AppCompatActivity
                 @SuppressLint("Range") int year = cursor.getInt(cursor.getColumnIndex("year"));
                 @SuppressLint("Range") int hour = cursor.getInt(cursor.getColumnIndex("hour"));
                 @SuppressLint("Range") int minute = cursor.getInt(cursor.getColumnIndex("minute"));
-                @SuppressLint("Range") int repeatOption = cursor.getInt(cursor.getColumnIndex("repeatOption"));
 
-                tasks.add(new Task(title, detail, day, month, year, hour, minute, repeatOption));
+                tasks.add(new Task(title, detail, day, month, year, hour, minute));
             } while (cursor.moveToNext());
         }
         cursor.close();
 
-        displayTasksOnCalendar(tasks);
     }
 
     private void displayTasksOnCalendar(List<Task> tasks) {
         // Logic to display tasks on calendar
+
+
     }
 
     @Override
